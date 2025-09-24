@@ -1,9 +1,9 @@
 import express from "express";
 const router =express.Router();
-import { getNote } from "../contolers/notesControler";
-import { createNote } from "../contolers/notesControler";
-import { updateNote } from "../contolers/notesControler";
-import { deleteNote } from "../contolers/notesControler";
+import { getNote } from "../contolers/notesControler.js";
+import { createNote } from "../contolers/notesControler.js";
+import { updateNote } from "../contolers/notesControler.js";
+import { deleteNote } from "../contolers/notesControler.js";
 
 router.get("/",getNote);
 router.post("/",createNote);
